@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@google-cloud/storage": "^6.11.0",
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "cucumber": "^6.0.7",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "kafka": "^0.2.3",
+    "kafkajs": "^2.2.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1",
+    "sinon": "^15.1.0",
+    "umzug": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "run-migration": "node ./src/runmigration.js"
+  }
+}

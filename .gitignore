@@ -1,0 +1,4 @@
+./company/node_modules
+./employee/node_modules
+cockroach-data-0
+cockroach-data-1

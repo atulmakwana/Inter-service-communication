@@ -1,0 +1,221 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "employee",
+    "dateExported": "2023-06-09T08:53:32.418Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4fdef0e7-e463-49b2-8926-ef831a36d0ad",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "create an employee",
+            "url": "http://localhost:3002/employee",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-09T07:02:05.252Z",
+            "modified": "2023-06-09T07:03:38.462Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"employeeName\":\"Atulll\",\n  \"employeeEmail\":\"atulmakwana4500@gmail.com\",\n  \"empDesignation\":\"Intern\",\n  \"companyName\":\"AbcPvt\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6ad22045-11c7-432a-a6e4-e1e8c3e16457",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "get all employees",
+            "url": "http://localhost:3002/employee",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-09T07:03:57.498Z",
+            "modified": "2023-06-09T07:04:08.957Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70fc3bd7-a331-4f14-b838-57637b60833f",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "delete an employee",
+            "url": "http://localhost:3002/employee/57f72e0c-8b72-4965-83cf-ea0066d60404",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-06-09T07:04:32.450Z",
+            "modified": "2023-06-09T07:12:07.819Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ade2963c-9b0b-4f2b-96e7-286398fa7cac",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "update an employee",
+            "url": "http://localhost:3002/employee/57f72e0c-8b72-4965-83cf-ea0066d60404",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-09T07:05:40.950Z",
+            "modified": "2023-06-09T07:08:08.017Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"employeeName\":\"Digvij\",\n  \"empDesignation\":\"Intern\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "57f7aa9c-dbb7-49db-83fc-5a3239e51ec4",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "get a single employee, with authorisation",
+            "url": "http://localhost:3002/employee/7c08cc2f-b148-4772-b062-b0859742cf7c",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-09T07:09:39.126Z",
+            "modified": "2023-06-09T07:18:03.199Z",
+            "headers": [
+                {
+                    "name": "accessToken",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZUlkIjoiN2MwOGNjMmYtYjE0OC00NzcyLWIwNjItYjA4NTk3NDJjZjdjIiwiZXhwaXJ5VGltZSI6MTY4NjI5ODQxMTQ1OSwiaWF0IjoxNjg2Mjk0ODExfQ.2gNoHRWPS4ggg9o998Nu6ZFZHKgjvuM2ZfzpEb-aS_c"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZUlkIjoiN2MwOGNjMmYtYjE0OC00NzcyLWIwNjItYjA4NTk3NDJjZjdjIiwiZXhwaXJ5VGltZSI6MTY4NjI5ODQxMTQ1OSwiaWF0IjoxNjg2Mjk0ODExfQ.2gNoHRWPS4ggg9o998Nu6ZFZHKgjvuM2ZfzpEb-aS_c"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c40952ac-f02b-4eb1-a0c5-9777afdaf172",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "employee login",
+            "url": "http://localhost:3002/employee/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-06-09T07:10:32.530Z",
+            "modified": "2023-06-09T07:12:25.735Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"employeeEmail\":\"atulmakwana4500@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4456e73b-6b77-487f-a0db-48842b736ad3",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "get all sessions",
+            "url": "http://localhost:3002/session",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-06-09T07:20:18.511Z",
+            "modified": "2023-06-09T07:20:30.338Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ee33ada8-1763-4d89-aab7-ef025d83f114",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "logout employee, deleting a session",
+            "url": "http://localhost:3002/employee/logout/f34aa730-068f-11ee-ab5f-312a4462e99b",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-06-09T07:21:12.622Z",
+            "modified": "2023-06-09T07:22:21.731Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4cad0da7-ed5b-4021-ab37-45db166db946",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "logout session by location",
+            "url": "http://localhost:3002/locations/employee/Visakhapatnam : 17.7041,83.2977",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-06-09T07:23:06.234Z",
+            "modified": "2023-06-09T07:23:39.446Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "56d7a2a7-810e-48f2-9103-d9773c6d7f87",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "filtering sessions",
+            "url": "http://localhost:3002/session/filter",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-06-09T07:24:35.927Z",
+            "modified": "2023-06-09T07:25:55.836Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"ip\":\"223.196.172.139\",\n  \"employee_location\": \"Visakhapatnam : 17.7041,83.2977\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "50e034c2-f504-4814-a8a4-90b99b9f7923",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "ordering the sessions",
+            "url": "http://localhost:3002/session/order",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-06-09T07:26:20.327Z",
+            "modified": "2023-06-09T08:44:05.895Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"orderBy\":\"employee_location\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b9c6cd96-8b2c-4a57-8f74-64e031f8aa79",
+            "colId": "070ab266-6d00-4a00-b351-fc2e74ee907d",
+            "containerId": "",
+            "name": "searching a session by ip or employee_location,device",
+            "url": "http://localhost:3002/session/search",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-06-09T08:42:49.143Z",
+            "modified": "2023-06-09T08:44:28.889Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"employee_location\": \"Visakhapatnam : 17.7041,83.2977\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

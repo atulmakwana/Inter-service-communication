@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "company",
+    "dateExported": "2023-06-09T08:53:48.366Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a0f92c0e-579b-4268-be76-f6b461604aac",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "create comany",
+            "url": "http://localhost:3001/company",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-09T06:41:07.545Z",
+            "modified": "2023-06-09T06:51:16.948Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"companyName\":\"PqrPvt\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d85da1af-1fa5-41c5-a0ca-0771fb7c956c",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "delete company",
+            "url": "http://localhost:3001/company/e8161d84-c652-40e9-9b59-e1d8ff86ca92",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-06-09T06:41:22.129Z",
+            "modified": "2023-06-09T06:51:32.500Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0b7051d8-67f9-403a-9d30-072308b00e16",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "get all company",
+            "url": "http://localhost:3001/company",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-09T06:52:08.512Z",
+            "modified": "2023-06-09T06:52:25.357Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75367d2e-3186-4316-8bec-36b2d518e5f4",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "get a single company",
+            "url": "http://localhost:3001/company/18691581-12ab-4a19-8572-0cc939787b2b",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-09T06:54:06.101Z",
+            "modified": "2023-06-09T06:54:28.860Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4451512f-78f9-4c0b-86c6-5c8fd3b347b1",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "get a company by its name",
+            "url": "http://localhost:3001/companybyname/AbcPvt",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-09T06:55:09.404Z",
+            "modified": "2023-06-09T06:55:39.917Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a8e4a25d-aa21-4b72-a203-776241a09ccb",
+            "colId": "762bd924-6cd3-48b6-ae33-27fbcc02b2e3",
+            "containerId": "",
+            "name": "update a company",
+            "url": "http://localhost:3001/company/31418924-77de-4d55-a744-04a08ba1d59a",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-06-09T06:55:59.898Z",
+            "modified": "2023-06-09T07:00:12.089Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"companyName\":\"New-AbcdPvt\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
